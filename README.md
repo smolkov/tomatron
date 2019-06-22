@@ -1,14 +1,15 @@
-# `tomatron`
- _                        _                   
-| |_ ___  _ __ ___   __ _| |_ _ __ ___  _ __  
-| __/ _ \| '_ ` _ \ / _` | __| '__/ _ \| '_ \ 
-| || (_) | | | | | | (_| | |_| | | (_) | | | |
- \__\___/|_| |_| |_|\__,_|\__|_|  \___/|_| |_|
-                                              
+# `tomatron` 
 
+<p align="center">
+  <img src="portrait.svg" alt="Portrait">
+</p>
+
+
+*Name:* `Tomatron Irrigatron`
 *Titul:* `Der Konig alle Tomato`
 
-Bekante Eigeschaften: `2.5l` Wasser
+## Bekante Eigeschaften und Eigenturm: 
+*Wasser:* `2.5l`
 
 
 ## Text weiter ist eine Kopie und nur zum info da.. 
