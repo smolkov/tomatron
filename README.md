@@ -15,7 +15,12 @@ wasser = {menge="2.5"}
 
 [pump]
 volume = 30
-mictobit = {}
+
+[mictobit]
+id="2AKFP"
+
+[mictobit.automationbit]
+analog={directory="input"}
 
 ```
 
@@ -28,8 +33,18 @@ This project is developed and maintained by the [Cortex-M team][team].
 
 
 ## `micto:bit`
+build &flash.it
 
 ```
 openocd -f interface/cmsis-dap.cfg -f target/nrf51.cfg
 
+```
+
+```
+gdb-multiarch target/thumbv6m-none-eabi/debug/tomatron
+.
+.
+(gdb)target remote :3333
+...
+(gdb) load
 ```

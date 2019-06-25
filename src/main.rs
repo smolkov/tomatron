@@ -25,11 +25,15 @@ fn main() -> ! {
         let mut led = gpio.pin10.into_push_pull_output();
         let _ = gpio.pin4.into_push_pull_output();
         out01.set_high();
+        out02.set_high();
         loop {
+            relay.set_high();
             led.set_low();
             delay.delay_ms(1_000_u16);
             led.set_high();
             delay.delay_ms(1_000_u16);
+            relay.set_low();
+            delay.delay_ms(2_000_u16);
         }
     }
 
